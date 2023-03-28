@@ -8,5 +8,8 @@ public class AxeHit : MonoBehaviour
     {
         if (other.name == "Opp")
             Destroy(other.gameObject);
+
+        if (other.name == "Zombie")
+            Destroy(other.gameObject);
     }
 }
